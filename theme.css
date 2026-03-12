@@ -1,0 +1,105 @@
+/* Window control buttons ================================================== */
+.titlebar-button-container.mod-right {
+  display: none !important;
+}
+.workspace-tab-header-container {
+  border: none;
+  padding-right: var(--size-4-2) !important;
+}
+
+/* Decorators ============================================================== */
+.workspace-sidedock-vault-profile {
+  border: none !important;
+}
+.workspace-tab-header {
+  box-shadow: none !important;
+  padding-top: 0 !important;
+
+  &.is-active {
+    background-color: transparent !important;
+  }
+  &.is-active::before,
+  &.is-active::after {
+    opacity: 0;
+  }
+  &.is-active .workspace-tab-header-inner {
+    background-color: var(--color-base-30) !important;
+  }
+}
+.status-bar {
+  border: none;
+  border-radius: var(--size-4-1);
+  margin: var(--size-4-2);
+  background-color: transparent;
+}
+
+/* Alignment =============================================================== */
+.workspace-tab-header-container {
+  height: var(--size-4-16) !important;
+  justify-content: center;
+
+  & * {
+    min-width: var(--size-4-8);
+    max-width: none !important;
+    /* flex-grow: 1; */
+  }
+}
+.workspace-tab-header-container-inner {
+  margin-top: 0 !important;
+  padding-top: var(--size-4-2) !important;
+  padding-bottom: var(--size-4-2) !important;
+}
+.workspace-tab-header-inner {
+  /* height: var(--size-4-10) !important; */
+}
+
+/* Color =================================================================== */
+.workspace-split.mod-horizontal.mod-sidedock,
+.workspace-sidedock-vault-profile,
+.workspace-tab-header-container,
+.workspace-leaf {
+  background-color: transparent !important;
+}
+.workspace-leaf-resize-handle {
+  opacity: 0 !important;
+}
+
+/* Hide forever ============================================================ */
+.workspace-tab-header-inner::after {
+  opacity: 0;
+}
+.workspace-tab-header-new-tab,
+.workspace-tab-header-tab-list,
+.workspace-tab-header-container::after,
+.workspace-tab-header-spacer,
+.search-empty-state,
+.sidebar-toggle-button {
+  display: none !important;
+}
+
+/* Reveal on hover ========================================================= */
+.workspace-tab-header-inner-close-button,
+.workspace-sidedock-vault-profile,
+.workspace-tab-header-container,
+.titlebar-button-container,
+.nav-header {
+  opacity: 0 !important;
+  transition: opacity 0.65s;
+
+  &:hover {
+    opacity: 1 !important;
+  }
+}
+
+.workspace-tab-header-container:has(.mod-right) {
+  opacity: 1 !important;
+}
+
+.cm-scroller {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
