@@ -1,26 +1,58 @@
-<h3 align="center">
-  <img src="./icon.svg" />
-</h3>
+<div align="center">
 
-<p align="center">
-  <img src="imgs/theme.png" alt="Nothing Theme Preview" /></br>
-  <sup>Obsidian Theme Superflat</sup>
-</p>
+<img src="./icon.svg" width="80%" />
 
-&nbsp;
+*An Obsidian theme built on the philosophy of nothingness.*
 
-<p align="center">
-  <img src="imgs/prompt.png" alt="Propmt" /></br>
-  <sup>Prompt</sup>
-</p>
+<br/>
 
-<p align="center">
-  <img src="imgs/settings.png" alt="Settings" /></br>
-  <sup>Settings</sup>
-</p>
+<img src="imgs/theme.png" alt="Theme Preview" />
+<br/>
 
-&nbsp;
+<br/><br/><br/>
 
-&nbsp;
+### CONCEPT
 
-<p align="center"><i>Made with 💖 by <strong>ForeverWeLearn</strong></i></p>
+Removes everything that distracts from the thought.
+
+No borders. No scrollbars. Zero depth.
+
+Everything is hidden until you need it, visible only on hover.
+
+<br/><br/>
+
+<img src="imgs/prompt.png" alt="Prompt" width="600" />
+<br/>
+<sup>Prompt</sup>
+
+<br/><br/>
+
+<img src="imgs/settings.png" alt="Settings" width="600" />
+<br/>
+<sup>Settings</sup>
+
+<br/><br/><br/>
+
+### FEATURES
+
+**Heavy Minimalism** — Many elements completely removed.
+
+**Dynamic** — Status bars, sidebars, and tab headers fade in only when hovered.
+
+**Content First** — No borders, no shadows, no visual weight.
+
+<br/><br/><br/>
+
+### INSTALLATION
+
+**1\.** Move this theme folder to your obsidian vault’s `.obsidian/themes`.
+
+**2\.** Select **Superflat** in `Settings > Appearance > Themes`.
+
+<br/><br/><br/><br/>
+
+*Made with 🖤 by **ForeverWeLearn***
+
+<br/><br/>
+
+</div>
